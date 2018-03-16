@@ -1,7 +1,3 @@
-$ember-power-select-trigger-border: initial;
-$ember-power-select-active-trigger-border: initial;
-$ember-power-select-trigger-default-border-radius: 0;
-
 .ember-power-select-typeahead-trigger {
   border: none;
   border-radius: 0;
@@ -14,10 +10,9 @@ $ember-power-select-trigger-default-border-radius: 0;
   width: 100%;
   top: 0;
   bottom: 0;
-  border: $ember-power-select-default-border;
+  border: 1px solid black;
   outline: none;
-
   & :focus {
-    border: $ember-power-select-default-focus-border;
+    border: 1px solid black;
   }
 }
